@@ -1,0 +1,10 @@
+.row{
+    padding: 30px;
+}
+h1, h3{
+    display: inline;
+}
+h1{
+    color: blue;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,15 @@
+.container{
+    padding: 18px;
+    margin-top: 60px;
+}
+h2{
+    margin-top: 30px;
+}
+/*Imagen*/
+img{
+
+    border-radius: 30%; 
+    max-width: 300px;
+
+}
+

@@ -1,0 +1,60 @@
+#ArgentinaProgramaLogo{
+    width: 150px;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+}
+
+.social img{
+        
+    margin: .2em;
+    
+    }
+
+img{
+        width: 50px;
+    }
+
+.btn{
+
+    border-width: medium;
+}
+
+/*Pantalla Pequeña*/
+@media (max-width:700px){
+
+    .container{
+
+        flex-direction: column;
+        
+        }
+        
+        .social{
+        
+        display: flex;
+       
+        align-items: center;
+        
+        }
+        
+        .social img{
+        
+        margin: .2em;
+        
+        }
+
+}
+
+
+

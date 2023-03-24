@@ -1,0 +1,20 @@
+.container-fluid{
+    background-color: #ca7d0a;
+    padding-right: calc(var(--bs-gutter-x) * 0);
+    padding-left: calc(var(--bs-gutter-x) * 0);
+}
+
+/*Foto de Perfil*/
+
+    @media (min-width: 1000px) {
+        #fotoPerfil{
+            position: absolute;
+            width: 25%;
+            border-radius: 41%;
+            box-shadow: 10px 10px 22px gray;
+            top: 300px;
+
+        }
+    }
+
+    
