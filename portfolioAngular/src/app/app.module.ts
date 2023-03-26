@@ -17,6 +17,9 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { CopyrightComponent } from './components/copyright/copyright.component';
+import {HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -33,12 +36,15 @@ import { CopyrightComponent } from './components/copyright/copyright.component';
     ProyectosComponent,
     FooterComponent,
     ContactoComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
