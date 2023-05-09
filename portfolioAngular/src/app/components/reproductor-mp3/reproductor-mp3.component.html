@@ -1,0 +1,17 @@
+<button id="música" class="btn btn-outline-light rounded-circle mx-2" style="width: 50px; height: 50px;"(click)="playPause()">📻</button>
+
+<script>
+    let myButton = document.getElementById('myButton');
+    let isColored = true;
+    
+    myButton.addEventListener('click', function() {
+      if (isColored) {
+        myButton.classList.remove('btn-primary');
+        myButton.classList.add('btn-light');
+      } else {
+        myButton.classList.remove('btn-light');
+        myButton.classList.add('btn-primary');
+      }
+      isColored = !isColored;
+    });
+  </script>

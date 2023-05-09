@@ -8,12 +8,22 @@ import { PersonaService } from 'src/app/service/persona.service';
   styleUrls: ['./acerca-de-mi.component.css']
 })
 export class AcercaDeMiComponent implements OnInit {
-persona: persona = new persona("","","");
-  
-constructor(public personaService: PersonaService) { }
+/*persona: persona = new persona("","","");*/
+
+/*interpolación, encapsulamiento y método*/
+/*propiedad*/
+private nombre= "Cristian Mauricio Peral";
+
+/*método*/
+
+getNombre(){ 
+  return this.nombre;
+}
+
+constructor(/*public personaService: PersonaService*/) { }
 
   ngOnInit(): void {
-    this.personaService.getPersona().subscribe(data =>{this.persona = data})
+   /* this.personaService.getPersona().subscribe(data =>{this.persona = data})*/
   }
 
 }
